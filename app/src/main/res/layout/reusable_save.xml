@@ -1,0 +1,48 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <LinearLayout android:layout_width="match_parent"
+       android:layout_height="match_parent" android:orientation="vertical"
+       android:weightSum="1">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Insert place name"
+           android:id="@+id/textViewPlaceName"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="0.10" />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/editTextName"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="0.10" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Insert place description"
+           android:id="@+id/textViewDescription"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="0.10" />
+
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/editTextDescription"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="0.10" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Save"
+           android:id="@+id/buttonSaveContentOverflow"
+           android:drawableLeft="@drawable/ic_create_black_24dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="0.10" />
+   </LinearLayout>
+
+</merge>
